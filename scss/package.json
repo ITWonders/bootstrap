@@ -1,0 +1,9 @@
+{
+    "name": "iw-bootstrap",
+    "version": "4.0.0-alpha.5",
+    "scripts": {
+        "scss": "node-sass --include-path utilities iw-bootstrap.scss > out/iw-bootstrap.css"
+    },
+    "license": "MIT",
+    "dependencies": {}
+}
