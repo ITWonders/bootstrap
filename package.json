@@ -17,6 +17,8 @@
     "Twitter, Inc."
   ],
   "scripts": {
+    "iw": "node-sass --include-path utilities scss/iw-bootstrap.scss > dist/css/iw-bootstrap.css",
+    "iw-themify": "node-sass --include-path utilities scss/iw-bootstrap-themify.scss > dist/css/iw-bootstrap-themify.css",
     "change-version": "node grunt/change-version.js",
     "clean-css": "cleancss --skip-advanced --source-map --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css",
     "clean-css-docs": "cleancss --skip-advanced --source-map --output docs/assets/css/docs.min.css docs/assets/css/docs.min.css",
@@ -45,6 +47,7 @@
   "license": "MIT",
   "dependencies": {
     "jquery": ">=1.9.1",
+    "node-sass": "^4.3.0",
     "tether": "^1.3.7"
   },
   "devDependencies": {

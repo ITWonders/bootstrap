@@ -52,3 +52,5 @@ bower_components
 node_modules
 
 out
+
+yarn.lock
